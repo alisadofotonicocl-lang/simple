@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-simple-bot",
+  "version": "1.0.0",
+  "description": "Bot simple de WhatsApp que muestra QR y marca conexión al escanear (Baileys).",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
